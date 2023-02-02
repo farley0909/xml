@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ans:mensagemTISS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" 
+xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:8080/tissV4_01_00.xsd">
+
+    <cabecalho>
+        <identificacaoTransacao >
+            <tipoTransacao >ENVIO_LOTE_GUIAS</tipoTransacao>
+            <sequencialTransacao></sequencialTransacao>
+            <dataRegistroTransacao></dataRegistroTransacao>
+            <horaRegistroTransacao></horaRegistroTransacao>
+        </identificacaoTransacao>
+        <origem>
+            <identificacaoPrestador>
+                <CNPJ></CNPJ>
+                <CPF></CPF>
+                <codigoPrestadorNaOperadora></codigoPrestadorNaOperadora>
+            </identificacaoPrestador>
+            <registroANS></registroANS>
+        </origem>
+        <destino>
+            <identificacaoPrestador>
+                <CNPJ></CNPJ>
+                <CPF></CPF>
+                <codigoPrestadorNaOperadora></codigoPrestadorNaOperadora>
+            </identificacaoPrestador>
+            <registroANS></registroANS>
+        </destino>
+        <Padrao>004.00.</Padrao>
+    </cabecalho>
+    <operadoraParaPrestador></operadoraParaPrestador>
+    <prestadorParaOperadora></prestadorParaOperadora>
+    <epilogo>
+        <hash></hash>
+    </epilogo>
+</ans:mensagemTISS>
