@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ans:mensagemTISS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" 
+xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:8080/tissV4_01_00.xsd">
+<ans:cabecalho>
+    <ans:identificacaoTransacao>
+        <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
+        <ans:sequencialTransacao>001</ans:sequencialTransacao>
+        <ans:dataRegistroTransacao>2023-02-04</ans:dataRegistroTransacao>
+        <ans:horaRegistroTransacao>09:36:20</ans:horaRegistroTransacao>
+    </ans:identificacaoTransacao>
+    <ans:origem>
+        <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>00123</ans:codigoPrestadorNaOperadora>    
+        </ans:identificacaoPrestador>
+    </ans:origem>
+    <ans:destino>
+        <ans:identificacaoPrestador>
+           <ans:codigoPrestadorNaOperadora>123</ans:codigoPrestadorNaOperadora>
+        </ans:identificacaoPrestador>
+    </ans:destino>
+    <ans:Padrao>4.01.00</ans:Padrao>
+    <ans:loginSenhaPrestador>
+        <ans:loginPrestador>user</ans:loginPrestador>
+        <ans:senhaPrestador>123</ans:senhaPrestador>
+    </ans:loginSenhaPrestador>
+</ans:cabecalho>
+<ans:prestadorParaOperadora>
+    
+    <ans:loteAnexos>
+        <ans:numeroLote>100</ans:numeroLote>
+    
+        <ans:AnexosGuiasTISS>
+
+            <ans:anexoSolicitacaoOPME>
+                <ans:cabecalhoAnexo>
+                    <ans:registroANS>123453</ans:registroANS>
+                    <ans:numeroGuiaAnexo>1</ans:numeroGuiaAnexo>
+                    <ans:numeroGuiaReferenciada>1</ans:numeroGuiaReferenciada>
+                    <ans:dataSolicitacao>2023-02-02</ans:dataSolicitacao>
+                    <ans:dataAutorizacao>2023-03-04</ans:dataAutorizacao>
+                </ans:cabecalhoAnexo>
+                <ans:dadosBeneficiario>
+                    <ans:numeroCarteira>10234</ans:numeroCarteira>
+                    <ans:atendimentoRN>S</ans:atendimentoRN>
+                </ans:dadosBeneficiario>
+                <ans:profissionalSolicitante>
+                    <ans:nomeProfissional>João da Silva</ans:nomeProfissional>
+                    <ans:telefoneProfissional>09234324</ans:telefoneProfissional>
+                </ans:profissionalSolicitante>
+                <ans:justificativaTecnica>paia n deu</ans:justificativaTecnica>
+                <ans:especificacaoMaterial>lost</ans:especificacaoMaterial>
+                <ans:opmeSolicitadas>
+                    <ans:opmeSolicitada>
+                        <ans:identificacaoOPME>
+                            <ans:codigoTabela>18</ans:codigoTabela>
+                            <ans:codigoProcedimento>2</ans:codigoProcedimento>
+                            <ans:descricaoProcedimento>material cirurgico</ans:descricaoProcedimento>
+                        </ans:identificacaoOPME>
+                        <ans:opcaoFabricante>1</ans:opcaoFabricante>
+                        <ans:quantidadeSolicitada>20</ans:quantidadeSolicitada>
+                    </ans:opmeSolicitada>
+                </ans:opmeSolicitadas>
+            </ans:anexoSolicitacaoOPME>
+        </ans:AnexosGuiasTISS>
+    
+    </ans:loteAnexos>
+
+</ans:prestadorParaOperadora>
+<ans:epilogo>
+    <ans:hash>229d368f4fefe36888fe2d5b256f17a8</ans:hash>
+</ans:epilogo>
+</ans:mensagemTISS>

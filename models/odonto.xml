@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ans:mensagemTISS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" 
+xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:8080/tissV4_01_00.xsd">
+<ans:cabecalho>
+    <ans:identificacaoTransacao>
+        <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
+        <ans:sequencialTransacao>001</ans:sequencialTransacao>
+        <ans:dataRegistroTransacao>2023-02-04</ans:dataRegistroTransacao>
+        <ans:horaRegistroTransacao>09:36:20</ans:horaRegistroTransacao>
+    </ans:identificacaoTransacao>
+    <ans:origem>
+        <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>00123</ans:codigoPrestadorNaOperadora>    
+        </ans:identificacaoPrestador>
+    </ans:origem>
+    <ans:destino>
+        <ans:identificacaoPrestador>
+           <ans:codigoPrestadorNaOperadora>123</ans:codigoPrestadorNaOperadora>
+        </ans:identificacaoPrestador>
+    </ans:destino>
+    <ans:Padrao>4.01.00</ans:Padrao>
+    <ans:loginSenhaPrestador>
+        <ans:loginPrestador>user</ans:loginPrestador>
+        <ans:senhaPrestador>123</ans:senhaPrestador>
+    </ans:loginSenhaPrestador>
+</ans:cabecalho>
+<ans:prestadorParaOperadora>
+    <ans:loteGuias>
+        <ans:numeroLote>90</ans:numeroLote>
+        <ans:guiasTISS>
+            <ans:guiaOdonto>
+                <ans:registroANS>202222</ans:registroANS>
+                <ans:numeroGuiaPrestador>1</ans:numeroGuiaPrestador>
+                <ans:dadosBeneficiario>
+                    <ans:numeroCarteira>123</ans:numeroCarteira>
+                    <ans:atendimentoRN>S</ans:atendimentoRN>
+                </ans:dadosBeneficiario>
+                <ans:planoBeneficiario>12</ans:planoBeneficiario>
+                <ans:dadosProfissionaisResponsaveis>
+                    <ans:codigoProfExec>212</ans:codigoProfExec>
+                    <ans:croExec>2</ans:croExec>
+                    <ans:ufExec>11</ans:ufExec>
+                    <ans:cnesExec>2</ans:cnesExec>
+                    <ans:cbosExec2>201115</ans:cbosExec2>
+                </ans:dadosProfissionaisResponsaveis>
+                <ans:procedimentosExecutados>
+                    <ans:sequencialItem>23</ans:sequencialItem>
+                    <ans:procSolic><ans:codigoTabela>18</ans:codigoTabela>
+                    <ans:codigoProcedimento>12</ans:codigoProcedimento>
+                    <ans:descricaoProcedimento>dadsadasd</ans:descricaoProcedimento>
+                </ans:procSolic>
+                <ans:denteFace>e</ans:denteFace>
+                <ans:qtdProc>1</ans:qtdProc>
+                <ans:qtdUS>2</ans:qtdUS>
+                <ans:valorProc>200.90</ans:valorProc>
+                <ans:autorizado>true</ans:autorizado>
+                <ans:dataRealizacao>2023-02-03</ans:dataRealizacao>
+                </ans:procedimentosExecutados>
+                <ans:tipoAtendimento>1</ans:tipoAtendimento>
+                <ans:tipoFaturamento>1</ans:tipoFaturamento>
+                <ans:qtdTotalUS>1</ans:qtdTotalUS>
+                <ans:valorTotalProc>120.00</ans:valorTotalProc>
+            </ans:guiaOdonto>
+        </ans:guiasTISS>
+    </ans:loteGuias>
+</ans:prestadorParaOperadora>
+<ans:epilogo>
+    <ans:hash>229d368f4fefe36888fe2d5b256f17a8</ans:hash>
+</ans:epilogo>
+</ans:mensagemTISS>
