@@ -70,7 +70,7 @@ export async function gerarJSON(consultaDados:ConsultaDTO){
         jsonConsulta['ans:mensagemTISS']['ans:prestadorParaOperadora'][0]['ans:loteGuias'][0]["ans:guiasTISS"][0]['ans:guiaConsulta'][0]['ans:dadosAtendimento'][0]['ans:procedimento'][0]['ans:valorProcedimento'][0]=consultaDados.valorProcedimento
         //Definindo a observação
         jsonConsulta['ans:mensagemTISS']['ans:prestadorParaOperadora'][0]['ans:loteGuias'][0]["ans:guiasTISS"][0]['ans:guiaConsulta'][0]['ans:observacao'][0] = consultaDados.observacao
-       
+        return jsonConsulta
         //Removendo o diretorio util e todos os arquivos contidos nele
         await fs.rm('./util', { recursive:true }, (err) => {
             if(err){

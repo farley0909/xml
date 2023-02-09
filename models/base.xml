@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ans:mensagemTISS xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:8080/tissV4_01_00.xsd">
+   <ans:cabecalho>
+      <ans:identificacaoTransacao>
+         <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
+         <ans:sequencialTransacao>001</ans:sequencialTransacao>
+         <ans:dataRegistroTransacao>2023-02-04</ans:dataRegistroTransacao>
+         <ans:horaRegistroTransacao>09:36:20</ans:horaRegistroTransacao>
+      </ans:identificacaoTransacao>
+      <ans:origem>
+         <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>00123</ans:codigoPrestadorNaOperadora>
+         </ans:identificacaoPrestador>
+      </ans:origem>
+      <ans:destino>
+         <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>123</ans:codigoPrestadorNaOperadora>
+         </ans:identificacaoPrestador>
+      </ans:destino>
+      <ans:Padrao>4.01.00</ans:Padrao>
+      <ans:loginSenhaPrestador>
+         <ans:loginPrestador>user</ans:loginPrestador>
+         <ans:senhaPrestador>123</ans:senhaPrestador>
+      </ans:loginSenhaPrestador>
+   </ans:cabecalho>
+   <ans:prestadorParaOperadora>
+    <ans:loteGuias>
+        <ans:numeroLote>100</ans:numeroLote>
+    </ans:loteGuias>
+
+   </ans:prestadorParaOperadora>
+   <ans:epilogo>
+    <ans:hash>229d368f4fefe36888fe2d5b256f17a8</ans:hash>
+   </ans:epilogo>
+</ans:mensagemTISS>

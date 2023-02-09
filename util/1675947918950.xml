@@ -4,8 +4,8 @@
     <ans:identificacaoTransacao>
       <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
       <ans:sequencialTransacao>07263</ans:sequencialTransacao>
-      <ans:dataRegistroTransacao>2023-02-07</ans:dataRegistroTransacao>
-      <ans:horaRegistroTransacao>16:58:28</ans:horaRegistroTransacao>
+      <ans:dataRegistroTransacao>2023-02-09</ans:dataRegistroTransacao>
+      <ans:horaRegistroTransacao>10:05:18</ans:horaRegistroTransacao>
     </ans:identificacaoTransacao>
     <ans:origem>
       <ans:identificacaoPrestador>

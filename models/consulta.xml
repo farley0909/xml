@@ -27,48 +27,4 @@ xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:
 <ans:prestadorParaOperadora>
     <ans:loteGuias>
         <ans:numeroLote>100</ans:numeroLote>
-        <ans:guiasTISS>
-            <ans:guiaConsulta>
-                <ans:cabecalhoConsulta>
-                    <ans:registroANS>892032</ans:registroANS>
-                    <ans:numeroGuiaPrestador>1234</ans:numeroGuiaPrestador>
-                </ans:cabecalhoConsulta>
-                <ans:ausenciaCodValidacao>01</ans:ausenciaCodValidacao>
-                <ans:codValidacao>123</ans:codValidacao>
-                <ans:dadosBeneficiario>
-                    <ans:numeroCarteira>120</ans:numeroCarteira>
-                    <ans:atendimentoRN>N</ans:atendimentoRN>
-                </ans:dadosBeneficiario>
-                <ans:contratadoExecutante>
-                    <ans:cnpjContratado>12343242323451</ans:cnpjContratado>
-                    <ans:CNES>12</ans:CNES>
-                </ans:contratadoExecutante>
-                <ans:profissionalExecutante>
-                    <ans:conselhoProfissional>04</ans:conselhoProfissional>
-                    <ans:numeroConselhoProfissional>234</ans:numeroConselhoProfissional>
-                    <ans:UF>11</ans:UF>
-                    <ans:CBOS>203015</ans:CBOS>
-                </ans:profissionalExecutante>
-                <ans:indicacaoAcidente>0</ans:indicacaoAcidente>
-                <ans:dadosAtendimento>
-                    <ans:regimeAtendimento>01</ans:regimeAtendimento>
-                    <ans:dataAtendimento>2023-02-04</ans:dataAtendimento>
-                    <ans:tipoConsulta>1</ans:tipoConsulta>
-                    <ans:procedimento>
-                        <ans:codigoTabela>18</ans:codigoTabela>
-                        <ans:codigoProcedimento>12</ans:codigoProcedimento>
-                        <ans:valorProcedimento>123.67</ans:valorProcedimento>
-                    </ans:procedimento>
-
-                </ans:dadosAtendimento>
-                <ans:observacao>
-                    Sem observação
-                </ans:observacao>
-            </ans:guiaConsulta>
-        </ans:guiasTISS>
-    </ans:loteGuias>
-</ans:prestadorParaOperadora>
-<ans:epilogo>
-    <ans:hash>229d368f4fefe36888fe2d5b256f17a8</ans:hash>
-</ans:epilogo>
-</ans:mensagemTISS>
+        
