@@ -1,19 +1,19 @@
-export interface consultaDTO {
+export interface guiaSPDTO{
     registroANS:string
     numeroGuiaPrestador:string
+    guiaPrincipal:string
     numeroCarteira:string
     atendimentoRN:string
     codigoPrestadorNaOperadora:string
-    cnes:string
+    nomeContratadoSolicitante:string
     conselhoProfissional:string
     numeroConselhoProfissional:string
     uf:string
     cbos:string
-    regimeAtendimento:string
-    dataAtendimento:string
-    tipoConsulta:string
-    codigoTabela:string
-    codigoProcedimento:string
-    valorProcedimento:string
+    caraterAtendimento:string
+    cnes:string
+    tipoAtendimento:string
     indicacaoAcidente:string
+    regimeAtendimento:string
+    valorTotalGeral:string
 }

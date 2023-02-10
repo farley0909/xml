@@ -1,0 +1,41 @@
+
+<ans:guiasTISS>
+    <ans:guiaResumoInternacao>
+        <ans:cabecalhoGuia>
+            <ans:registroANS>123456</ans:registroANS>
+            <ans:numeroGuiaPrestador>1</ans:numeroGuiaPrestador>
+        </ans:cabecalhoGuia>
+        <ans:numeroGuiaSolicitacaoInternacao>1</ans:numeroGuiaSolicitacaoInternacao>
+        <ans:dadosAutorizacao>
+            <ans:dataAutorizacao>2023-02-02</ans:dataAutorizacao>
+            <ans:senha>123</ans:senha>
+        </ans:dadosAutorizacao>
+        <ans:dadosBeneficiario>
+            <ans:numeroCarteira>123</ans:numeroCarteira>
+            <ans:atendimentoRN>S</ans:atendimentoRN>
+        </ans:dadosBeneficiario>
+        <ans:dadosExecutante>
+            <ans:contratadoExecutante>
+                <ans:codigoPrestadorNaOperadora>12</ans:codigoPrestadorNaOperadora>
+            </ans:contratadoExecutante>
+            <ans:CNES>12</ans:CNES>
+        </ans:dadosExecutante>
+        <ans:dadosInternacao>
+            <ans:caraterAtendimento>1</ans:caraterAtendimento>
+            <ans:tipoFaturamento>1</ans:tipoFaturamento>
+            <ans:dataInicioFaturamento>2023-02-02</ans:dataInicioFaturamento>
+            <ans:horaInicioFaturamento>12:34:00</ans:horaInicioFaturamento>
+            <ans:dataFinalFaturamento>2023-02-02</ans:dataFinalFaturamento>
+            <ans:horaFinalFaturamento>12:35:22</ans:horaFinalFaturamento>
+            <ans:tipoInternacao>1</ans:tipoInternacao>
+            <ans:regimeInternacao>1</ans:regimeInternacao>
+        </ans:dadosInternacao>
+        <ans:dadosSaidaInternacao>
+            <ans:indicadorAcidente>0</ans:indicadorAcidente>
+            <ans:motivoEncerramento>11</ans:motivoEncerramento>
+        </ans:dadosSaidaInternacao>
+        <ans:valorTotal>
+            <ans:valorTotalGeral>12</ans:valorTotalGeral>
+        </ans:valorTotal>
+    </ans:guiaResumoInternacao>
+</ans:guiasTISS>
