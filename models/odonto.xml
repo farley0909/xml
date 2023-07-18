@@ -27,41 +27,142 @@ xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://localhost:
 <ans:prestadorParaOperadora>
     <ans:loteGuias>
         <ans:numeroLote>90</ans:numeroLote>
+
+
         <ans:guiasTISS>
-            <ans:guiaOdonto>
-                <ans:registroANS>202222</ans:registroANS>
-                <ans:numeroGuiaPrestador>1</ans:numeroGuiaPrestador>
+            <ans:guiaSP-SADT>
+                <ans:cabecalhoGuia>
+                    <ans:registroANS></registroANS>
+                    <ans:numeroGuiaPrestador></numeroGuiaPrestador>
+                    <ans:guiaPrincipal></guiaPrincipal>
+                </ans:cabecalhoGuia>
+                <ans:dadosAutorizacao>
+                    <ans:numeroGuiaOperadora></numeroGuiaOperadora>
+                    <ans:dataAutorizacao></dataAutorizacao>
+                    <ans:senha></senha>
+                    <ans:dataValidadeSenha></dataValidadeSenha>
+                    <ans:ausenciaCodValidacao>01</ausenciaCodValidacao>
+                    <ans:codValidacao></codValidacao>
+                </ans:dadosAutorizacao>
                 <ans:dadosBeneficiario>
-                    <ans:numeroCarteira>123</ans:numeroCarteira>
-                    <ans:atendimentoRN>S</ans:atendimentoRN>
+                    <ans:numeroCarteira></numeroCarteira>
+                    <ans:atendimentoRN>S</atendimentoRN>
+                    <ans:tipoIdent>01</tipoIdent>
+                    <ans:identificadorBeneficiario></identificadorBeneficiario>
                 </ans:dadosBeneficiario>
-                <ans:planoBeneficiario>12</ans:planoBeneficiario>
-                <ans:dadosProfissionaisResponsaveis>
-                    <ans:codigoProfExec>212</ans:codigoProfExec>
-                    <ans:croExec>2</ans:croExec>
-                    <ans:ufExec>11</ans:ufExec>
-                    <ans:cnesExec>2</ans:cnesExec>
-                    <ans:cbosExec2>201115</ans:cbosExec2>
-                </ans:dadosProfissionaisResponsaveis>
+                <ans:dadosSolicitante>
+                    <ans:contratadoSolicitante>
+                        <ans:codigoPrestadorNaOperadora></codigoPrestadorNaOperadora>
+                        <ans:cpfContratado></cpfContratado>
+                        <ans:cnpjContratado></cnpjContratado>
+                    </ans:contratadoSolicitante>
+                    <ans:nomeContratadoSolicitante></nomeContratadoSolicitante>
+                    <ans:profissionalSolicitante>
+                        <ans:nomeProfissional></nomeProfissional>
+                        <ans:conselhoProfissional>01</conselhoProfissional>
+                        <ans:numeroConselhoProfissional></numeroConselhoProfissional>
+                        <ans:UF>11</UF>
+                        <ans:CBOS>201115</CBOS>
+                    </ans:profissionalSolicitante>
+                </ans:dadosSolicitante>
+                <ans:dadosSolicitacao>
+                    <ans:dataSolicitacao></dataSolicitacao>
+                    <ans:caraterAtendimento>1</caraterAtendimento>
+                    <ans:indicacaoClinica></indicacaoClinica>
+                    <ans:indCobEspecial>01</indCobEspecial>
+                </ans:dadosSolicitacao>
+                <ans:dadosExecutante>
+                    <ans:contratadoExecutante>
+                        <ans:codigoPrestadorNaOperadora></codigoPrestadorNaOperadora>
+                        <ans:cpfContratado></cpfContratado>
+                        <ans:cnpjContratado></cnpjContratado>
+                    </ans:contratadoExecutante>
+                    <ans:CNES></CNES>
+                </ans:dadosExecutante>
+                <ans:dadosAtendimento>
+                    <ans:tipoAtendimento>01</tipoAtendimento>
+                    <ans:indicacaoAcidente>0</indicacaoAcidente>
+                    <ans:tipoConsulta>1</tipoConsulta>
+                    <ans:motivoEncerramento>41</motivoEncerramento>
+                    <ans:regimeAtendimento>01</regimeAtendimento>
+                    <ans:saudeOcupacional>01</saudeOcupacional>
+                </ans:dadosAtendimento>
                 <ans:procedimentosExecutados>
-                    <ans:sequencialItem>23</ans:sequencialItem>
-                    <ans:procSolic><ans:codigoTabela>18</ans:codigoTabela>
-                    <ans:codigoProcedimento>12</ans:codigoProcedimento>
-                    <ans:descricaoProcedimento>dadsadasd</ans:descricaoProcedimento>
-                </ans:procSolic>
-                <ans:denteFace>e</ans:denteFace>
-                <ans:qtdProc>1</ans:qtdProc>
-                <ans:qtdUS>2</ans:qtdUS>
-                <ans:valorProc>200.90</ans:valorProc>
-                <ans:autorizado>true</ans:autorizado>
-                <ans:dataRealizacao>2023-02-03</ans:dataRealizacao>
+                    <ans:procedimentoExecutado>
+                        <ans:sequencialItem></sequencialItem>
+                        <ans:dataExecucao></dataExecucao>
+                        <ans:horaInicial></horaInicial>
+                        <ans:horaFinal></horaFinal>
+                        <ans:procedimento>
+                            <ans:codigoTabela>18</codigoTabela>
+                            <ans:codigoProcedimento></codigoProcedimento>
+                            <ans:descricaoProcedimento></descricaoProcedimento>
+                        </ans:procedimento>
+                        <ans:quantidadeExecutada></quantidadeExecutada>
+                        <ans:viaAcesso>1</viaAcesso>
+                        <ans:tecnicaUtilizada>1</tecnicaUtilizada>
+                        <ans:reducaoAcrescimo></reducaoAcrescimo>
+                        <ans:valorUnitario></valorUnitario>
+                        <ans:valorTotal></valorTotal>
+                        <ans:equipeSadt>
+                            <ans:grauPart>00</grauPart>
+                            <ans:codProfissional>
+                                <ans:codigoPrestadorNaOperadora></codigoPrestadorNaOperadora>
+                                <ans:cpfContratado></cpfContratado>
+                            </ans:codProfissional>
+                            <ans:nomeProf></nomeProf>
+                            <ans:conselho>01</conselho>
+                            <ans:numeroConselhoProfissional></numeroConselhoProfissional>
+                            <ans:UF>11</UF>
+                            <ans:CBOS>201115</CBOS>
+                        </ans:equipeSadt>
+                    </ans:procedimentoExecutado>
                 </ans:procedimentosExecutados>
-                <ans:tipoAtendimento>1</ans:tipoAtendimento>
-                <ans:tipoFaturamento>1</ans:tipoFaturamento>
-                <ans:qtdTotalUS>1</ans:qtdTotalUS>
-                <ans:valorTotalProc>120.00</ans:valorTotalProc>
-            </ans:guiaOdonto>
+                <ans:outrasDespesas>
+                    <ans:despesa>
+                        <ans:sequencialItem></sequencialItem>
+                        <ans:codigoDespesa>01</codigoDespesa>
+                        <ans:servicosExecutados>
+                            <ans:dataExecucao></dataExecucao>
+                            <ans:horaInicial></horaInicial>
+                            <ans:horaFinal></horaFinal>
+                            <ans:codigoTabela>18</codigoTabela>
+                            <ans:codigoProcedimento></codigoProcedimento>
+                            <ans:quantidadeExecutada></quantidadeExecutada>
+                            <ans:unidadeMedida>001</unidadeMedida>
+                            <ans:reducaoAcrescimo></reducaoAcrescimo>
+                            <ans:valorUnitario></valorUnitario>
+                            <ans:valorTotal></valorTotal>
+                            <ans:descricaoProcedimento></descricaoProcedimento>
+                            <ans:registroANVISA></registroANVISA>
+                            <ans:codigoRefFabricante></codigoRefFabricante>
+                            <ans:autorizacaoFuncionamento></autorizacaoFuncionamento>
+                        </ans:servicosExecutados>
+                        <ans:itemVinculado></itemVinculado>
+                    </ans:despesa>
+                </ans:outrasDespesas>
+                <ans:observacao></observacao>
+                <ans:valorTotal>
+                    <ans:valorProcedimentos></valorProcedimentos>
+                    <ans:valorDiarias></valorDiarias>
+                    <ans:valorTaxasAlugueis></valorTaxasAlugueis>
+                    <ans:valorMateriais></valorMateriais>
+                    <ans:valorMedicamentos></valorMedicamentos>
+                    <ans:valorOPME></valorOPME>
+                    <ans:valorGasesMedicinais></valorGasesMedicinais>
+                    <ans:valorTotalGeral></valorTotalGeral>
+                </ans:valorTotal>
+            </ans:guiaSP-SADT>
+               
         </ans:guiasTISS>
+ 
+
+
+
+
+
+
+        
     </ans:loteGuias>
 </ans:prestadorParaOperadora>
 <ans:epilogo>
